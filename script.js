@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     resetButton.addEventListener("click", resetGame);
-
+    
     function resetGame() {
         board.fill(0);
         cells.forEach(cell => {
